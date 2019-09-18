@@ -5,8 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "mock": "npm run serve & cd mock && npm run server",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "mock": "npm run serve & cd mock && npm run server"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -17,9 +17,11 @@
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-axios": "^0.0.4",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
